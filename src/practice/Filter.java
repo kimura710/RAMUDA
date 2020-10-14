@@ -8,6 +8,7 @@ public class Filter {
 		Integer[] num = {1,2,3,4,5,6,9,8,7};
 		List<Integer> i = Arrays.asList(num);
 
+		// ラムダ式の記述：：3未満を抽出
 		i.stream().filter(x -> x <= 5).forEach(System.out :: println);
 	}
 
